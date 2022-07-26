@@ -1,14 +1,20 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import ClassicView from "../views/ClassicView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "HomeView",
+    name: "Home",
     component: HomeView,
+  },
+  {
+    path: "/classic",
+    name: "Classic",
+    component: ClassicView,
   },
 ];
 
