@@ -1,3 +1,4 @@
+<!-- is not yet active but can be if needed -->
 <template>
   <v-system-bar app v-if="$vuetify.breakpoint.xsOnly">
     <v-spacer />
@@ -11,14 +12,6 @@
 <script>
 export default {
   name: "SystemBar",
-
-  data() {
-    return {};
-  },
-
-  mounted() {},
-
-  methods: {},
 };
 </script>
 
