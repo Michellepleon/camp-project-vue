@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "jsx": "preserve",
     "target": "es6",
     "module": "esnext",
-    "baseUrl": "./",
+    "baseUrl": "/",
     "moduleResolution": "node",
     "paths": {
       "@/*": ["src/*"]
